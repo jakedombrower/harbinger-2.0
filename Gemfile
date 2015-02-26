@@ -31,6 +31,9 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'active_admin_editor'
 
+#Slug generator
+gem 'friendly_id', '~> 5.1.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

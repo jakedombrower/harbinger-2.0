@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   
+  #Author Routing
+  get 'authors/index'
+  get 'authors/:id' => 'authors#show'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
