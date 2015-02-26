@@ -29,7 +29,7 @@ gem 'spring',        group: :development
 #Active Admin
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
-
+gem 'active_admin_editor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
