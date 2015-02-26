@@ -1,0 +1,3 @@
+== README
+
+This is the new Harbinger site. One of the issues that I faced with the old one was it was extremely bloated. Many of the great features that were implemented were not being used, and just wasting space. With this project, I plan on completely rebuilding the website, starting with the features that we need, and implementing new ones as I go along. Wish me luck!
