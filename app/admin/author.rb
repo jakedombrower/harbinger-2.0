@@ -9,6 +9,20 @@ ActiveAdmin.register Author do
     end  
   end
 
+  # Custom Show panel featuring Author and his written articles (in progress)
+  # show do
+  #   panel "Admin"
+  #     Incomplete
+  #   end
+  #   panel "Articles" do
+  #     table_for author.articles do |article|
+  #       column :title
+  #       column :date_published
+  #       #column :page
+  #     end
+  #   end
+  # end
+
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #

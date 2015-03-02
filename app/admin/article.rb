@@ -3,6 +3,7 @@ ActiveAdmin.register Article do
   form do |f|
     f.inputs do
       f.input :title
+      f.input :author
       f.input :date_published
       f.input :content, as: :html_editor
       f.submit
