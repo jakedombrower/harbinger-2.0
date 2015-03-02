@@ -1,10 +1,19 @@
 ActiveAdmin.register Author do
 
+  form do |f|
+    f.inputs do
+      f.input :name
+      f.input :grade
+      f.input :bio
+      f.submit
+    end  
+  end
 
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
   permit_params :name, :grade, :bio
+
   #
   # or
   #
