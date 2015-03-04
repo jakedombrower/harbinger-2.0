@@ -9,13 +9,13 @@ This is the new Harbinger site. One of the issues that I faced with the old one 
 A news website that looks good, is a self-sufficient and is as lightweight as possible while retaining all necessary features and leaving room for expansion. 
 
 ===Feature List
-	*  Articles    
-	*  Author indexing which has_many Articles for portfolio purposes
-	*  Harbinger Bulletin for Announcements
-	*  Sections for Clubs, Sports, etc...
-	*  Bus Finder
-	*  HF Navigator 'GET' API (Maybe full REST in the future, who knows!)
-	*  Harbinger Pages- Multi-Use CMS driven webpages 
+*  Articles    
+*  Author indexing which has_many Articles for portfolio purposes
+*  Harbinger Bulletin for Announcements
+*  Sections for Clubs, Sports, etc...
+*  Bus Finder
+*  HF Navigator 'GET' API (Maybe full REST in the future, who knows!)
+*  Harbinger Pages- Multi-Use CMS driven webpages 
 
 ===Admin Management
 
