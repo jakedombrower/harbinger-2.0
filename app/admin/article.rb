@@ -25,5 +25,12 @@ ActiveAdmin.register Article do
   #   permitted
   # end
 
+  #Allow slugs to work in ActiveAdmin
+  controller do
+    def find_resource
+      scoped_collection.friendly.find(params[:id])
+    end
+  end
+
 
 end

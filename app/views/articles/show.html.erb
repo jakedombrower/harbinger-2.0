@@ -1,0 +1,4 @@
+<h1><%= @article.title %></h1>
+<p>by <a href="/authors/<%= @author.slug %>" ><%= @author.name %></a></p>
+<p>Published <%= @article.date_published %></p>
+<p><%=raw @article.content %></p>
