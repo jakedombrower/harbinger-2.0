@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'article/index'
-
-  get 'article/show'
 
   # You can have the root of your site routed with "root"
    root 'static#index'
