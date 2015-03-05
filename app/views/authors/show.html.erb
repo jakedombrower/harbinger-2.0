@@ -1,4 +1,6 @@
-<h1>Authors#show</h1>
-<p>Find me in app/views/authors/show.html.erb</p>
-
-<p>Author:<%= @author.name %></p>
+<h1><%= @author.name %>'s Profile</h1>
+<p>Bio: <%= @author.bio %></p>
+<h3>Articles by this author:</h3>
+<% @articles.each do |article| %>
+	<li><%= article.title %>, <a href="/articles/<%= article.slug %>">View Article</a></li>
+<% end %>

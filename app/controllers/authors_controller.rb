@@ -4,6 +4,7 @@ class AuthorsController < ApplicationController
 
   def show
   	@author = Author.friendly.find(params[:id])
+  	@articles = @author.articles
   	@title = "#{@author.name}'s Profile"
   end
 end
