@@ -20,3 +20,7 @@ A news website that looks good, is a self-sufficient and is as lightweight as po
 ===Admin Management
 
 This site uses ActiveAdmin as it's CMS to manage all the uploaded content. To access the panel, go to '/admin'. You will need an admin account to access. The default login is: 'admin@example.com' and 'password'. Content uploading is pretty self explanatory.
+
+===Site <title>
+
+All site page titles are suffixed with a hardcoded '| Harbinger News'. To add a title before the pipe, set @title to a string in the appropriate controller action.
