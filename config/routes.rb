@@ -12,6 +12,9 @@ Rails.application.routes.draw do
   get 'articles/index'
   get 'articles/:id' => 'articles#show'
 
+  #Bus Map Routing
+  get '/buses/map' => 'static#bus_map'
+
 
   #Admin Routing
   devise_for :admin_users, ActiveAdmin::Devise.config
